@@ -17,8 +17,8 @@ public class Todo {
 
     }
 
-    public Todo(Long id, String title, boolean completed) {
-        this.id = id;
+
+    public Todo(String title, boolean completed) {
         this.title = title;
         this.completed = completed;
     }
